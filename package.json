@@ -1,0 +1,23 @@
+{
+  "name": "jsmpeg",
+  "version": "1.0.0",
+  "description": "JSMpeg is a Video Player written in JavaScript. It consists of an MPEG-TS demuxer, MPEG1 video & MP2 audio decoders, WebGL & Canvas2D renderers and WebAudio sound output. JSMpeg can load static videos via Ajax and allows low latency streaming (~50ms) via WebSockets.",
+  "main": "websocket-relay.js supersecret 8081 8082",
+  "dependencies": {
+    "ws": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node websocket-relay.js supersecret 8081 8082"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phoboslab/jsmpeg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phoboslab/jsmpeg/issues"
+  },
+  "homepage": "https://github.com/phoboslab/jsmpeg#readme"
+}
